@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+nav {
+  background-color: #222;
+  color: #fff;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Added */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container h2{
+  text-align: center;
+}
+
+.container .expert-card {
+  text-align: left;
+}
+.logo {
+  font-size: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: lightblue;
+}
+
+
+.career-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  text-align: center;
+}
+
+
+
+.career-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.career-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.career-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.career-section ul li {
+  margin-bottom: 30px;
+}
+
+.career-section ul li h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-details {
+  margin-top: 40px;
+}
+
+.contact-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.experts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.expert-card {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.expert-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.expert-card h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.expert-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+

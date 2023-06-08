@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(15, 23, 57);
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: lightblue;
+}
+
+.course-categories {
+  padding: 40px 0;
+}
+
+.course-categories h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+.category h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.course-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course-card {
+  width: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.course-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.course-card a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.course-card a:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 10px;
+  text-align: center;
+}

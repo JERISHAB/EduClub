@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-family: "Roboto", Arial, sans-serif;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+/* Navigation Styles */
+nav {
+  background-color: #222;
+  color: #fff;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Added */
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: lightblue;
+}
+  
+  .about-section,
+  .team-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .about-section h2,
+  .team-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p,
+  .team-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .team-member {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .contact-details ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+  }  
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
